@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mihaiandrei"
+    }
+  },
+  "defaultProject": "mihaiandrei",
+  "cli": {
+    "analytics": "99aeae04-1cce-4308-978a-1612f4e0dd0a"
+  }
 }
