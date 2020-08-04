@@ -1,9 +1,9 @@
-<header>
+<header [class.headerDark]="darkMode">
     <img src="assets/img/logo.png">
-    <div>
-        <a href="#">Home</a>
-        <a href="#">Curriculum Vite</a>
-        <a href="#">Projects</a>
-        <a href="#">Impressum</a>
+    <div [class.darkLinks]="darkMode">
+        <a routerLink="/">Home</a>
+        <a routerLink="#">Curriculum</a>
+        <a routerLink="#">Projects</a>
+        <a routerLink="/imprint">Imprint</a>
     </div>
 </header>
